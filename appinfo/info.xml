@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>kurve</id>
+	<name>Kurve</name>
+	<summary>....</summary>
+	<description>
+		...
+	</description>
+
+	<version>0.0.0</version>
+	<licence>agpl</licence>
+	<author>Jan-Christoph Borchardt</author>
+	<author>Morris Jobke</author>
+
+	<category>games</category>
+	<category>social</category>
+
+	<website>https://github.com/jancborchardt/kurve/</website>
+	<bugs>https://github.com/jancborchardt/kurve/issues</bugs>
+	<repository>https://github.com/jancborchardt/kurve.git</repository>
+
+	<dependencies>
+		<nextcloud min-version="13" max-version="14" />
+	</dependencies>
+
+	<navigations>
+		<navigation>
+			<name>Kurvve</name>
+			<route>kurve.Kurve.show</route>
+			<icon>icon.svg</icon>
+			<order>1</order>
+		</navigation>
+	</navigations>
+</info>
