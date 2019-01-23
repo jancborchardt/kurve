@@ -26,7 +26,7 @@
 
 	<navigations>
 		<navigation>
-			<name>Kurvve</name>
+			<name>Kurve</name>
 			<route>kurve.Kurve.show</route>
 			<icon>icon.svg</icon>
 			<order>1</order>
